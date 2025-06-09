@@ -142,6 +142,8 @@ display = Display(board.GP18, board.GP28)
 light_sensor = LightSensor(board.GP27, settings.get("light_sensor_bright_threshold"), settings.get("light_sensor_dark_threshold"))  # Light sensor on GPIO27 (ADC1)
 buzzer = pwmio.PWMOut(board.A3, frequency=settings.get("buzzer_frequency"), duty_cycle=0)  # Buzzer on GPIO29 (A3)
 
+apply_settings()
+
 # Initialize SWO (CLK_1HZ)
 swo = digitalio.DigitalInOut(board.GP9)  # SWO on GPIO9
 swo.direction = digitalio.Direction.INPUT
