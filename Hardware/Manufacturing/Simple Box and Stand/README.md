@@ -1,0 +1,2 @@
+# Notes
+JLC needed 3D models with walls no thinner than 0.8mm so I had to increase the wall thickness between segments. But if you would like to have the wall between segments thinner, you can use the _print_home files (these were my original files and I wanted to keep them). 
