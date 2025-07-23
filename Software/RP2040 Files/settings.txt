@@ -1,0 +1,9 @@
+{
+"buzzer_frequency": 2300,
+"buzzer_beep_duration": 0.1,
+"buzzer_stop_duration": 0.2,
+"buzzer_pause_duration": 0.3,
+"buzzer_max_cycles": 3,
+"light_sensor_bright_threshold": 30000,
+"light_sensor_dark_threshold": 49000
+}
